@@ -1,0 +1,26 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "description": "Bosma Integration",
+        "data": {
+          "address": "Bluetooth address",
+          "key": "Offline Key (32-byte hex string)",
+          "tiny_uid": "Tiny UID"
+        }
+      },
+      "integration_discovery_confirm": {
+        "description": "Do you want to set up {name} over Bluetooth with address {address}?"
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}

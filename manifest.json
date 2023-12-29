@@ -1,0 +1,17 @@
+{
+  "domain": "bosma",
+  "name": "bosma",
+  "bluetooth": [
+    {
+      "local_name": "DoorLock-*",
+      "service_uuid": "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+    }
+  ],
+  "codeowners": ["@brettjurgens"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/bosma",
+  "iot_class": "local_push",
+  "requirements": ["bosma==0.1.1"],
+  "version": "0.0.1"
+}
